@@ -30,8 +30,7 @@ We implemented solutions for four major tasks:
 
 **Approach**:
 - Preprocessed text data (removal of stop words, stemming, and tokenization).
-- Used TF-IDF and word embeddings for feature extraction.
-- Trained classifiers such as Random Forest, SVM, and Transformer-based models.
+- Fine-tuned pre-trained models such as RoBERTa for Classification.
 
 **Evaluation**:
 - Measured accuracy, precision, recall, and F1-score.
