@@ -58,10 +58,6 @@ We implemented solutions for four major tasks:
 - Performed gendered word bias checks.
 - Used LIME and SHAP for model explainability.
 
-**Evaluation**:
-- **Accuracy**: 0.9748
-- **Cohen’s Kappa Score**: 0.7269
-- **Highlighted key words influencing predictions using LIME and SHAP.**
 
 **Potential Use in Monitoring Systems**:
 - The highlighted words from LIME and SHAP can be integrated into real-time monitoring systems to flag users for review.
@@ -122,13 +118,5 @@ Each model was trained using the following pipeline:
    ```sh
    jupyter notebook
    ```
-4. Open and execute the following notebooks:
-   - `Que1.ipynb` (Conversation Reconstruction)
-   - `Que2.ipynb` (Topic Classification)
-   - `Que3.ipynb` (Toxicity Detection)
-   - `Que4.ipynb` (Misogyny Detection)
+4. Open and execute the notebooks
 
-## Future Enhancements
-- Integrate bias mitigation techniques to reduce false positives/negatives.
-- Improve explainability by enhancing visualization of toxic elements.
-- Extend the model to support multilingual text analysis.
